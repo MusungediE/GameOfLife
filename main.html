@@ -1,0 +1,52 @@
+<head>
+    <meta charset = "UTF-8" />
+    <title>The Game of Life</title>
+    <link rel="stylesheet" href="style.css">   
+    <script src="gol.js"></script>
+     
+</head>
+<body>
+  <h1>Game of Life</h1>
+
+  <div id="grid">
+      
+  </div>
+
+  <div class="btns">
+  <button id="start" onclick = "start()">Start</button>
+  <button id="pause" onclick = "pause()" >Pause</button>
+  <button id="clear" onclick = "resetBtn()">Clear</button>
+  <button id="increment1" onclick = "increment1Btn()">+1 Gen</button>
+  <button id="increment23" onclick = "increment23Btn()">+23 Gen</button>
+  <button id="generationNum"> Generation: 0</button>
+</div>
+<select name="pattern" id="pattern" onchange = "optionsFunc()">
+    <option value="">Select Pattern</option>
+    <option value="block">The Block</option>
+    <option value="blinker">The Blinker</option>
+    <option value="toad">The Toad</option>
+    <option value="glider1">Glider 1</option>
+</select>
+
+<div id="bottom_left">
+  <div>
+    <div>
+    <button onclick="storeStats()">Store Progression</button>
+  </div>
+  <div id="stats">
+    <p>
+      <!--<div>User: <span id="nameContainer">Isaac</span></div>-->
+      <div>Time: <span id="timeContainer">0:00</span></div>
+      <div>Score: <span id="scoreContainer">0</span></div>
+    </p>
+  </div>
+  </div>
+</div>
+
+<div id="right_side">
+  <div>
+      <a href="logout.php" class="logout-button" name="logout" value="Logout">Log out</a>
+  </div>
+    
+    
+</body>

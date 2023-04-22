@@ -1,0 +1,113 @@
+
+#grid {
+    padding-bottom: 10px;
+}
+
+.tab {
+    background-color: lightblue;
+    border-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    width: 13px;
+    height: 13px;
+    border:solid black;
+    border-width: 2px;
+}
+
+
+
+.btns{
+    text-align: center;
+}
+
+
+td.dead {
+    background-color: transparent;
+}
+
+td.alive {
+    background-color: #CC4774;
+}
+
+#start
+ {
+    font-size: 20px;
+    border: none;    
+    background-color: lightgreen;
+    border-radius: 45%;
+}
+
+#clear{
+    font-size: 20px;
+    border: none;    
+    background-color: lightcoral;
+    border-radius: 45%;
+}
+
+#pause{
+    font-size: 20px;
+    border: none;    
+    background-color: lightblue;
+    border-radius: 45%;
+    opacity: 0;
+}
+
+#increment1{
+    font-size: 20px;
+    border: none;    
+    background-color: lavender;
+    border-radius: 45%;
+    
+}
+
+#increment23{
+    font-size: 20px;
+    border: none;    
+    background-color: lavender;
+    border-radius: 45%;
+    
+}
+
+.logout-button, .rank-button {
+    background:#69d2e7;
+    border: 1px ;
+    border-radius: 25px;
+    padding: 8px 15px 8px 15px;
+    overflow: auto;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin: 40px 10px 0 0;
+}
+
+.logout-button:hover, .rank-button:hover {
+    background: #0f44d6;
+    color: #ffffff;
+}
+
+#generationNum{
+    font-size: 20px;
+    border: none;
+    background-color: lightblue;
+    border-radius: 45%;
+}
+#bottom_left {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#bottom_left button {
+    background-color: #69d2e7;
+    border: black solid 2px;
+    font-size: 1em;
+}
+#stats {
+    display:none;
+}

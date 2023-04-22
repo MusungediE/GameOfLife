@@ -1,0 +1,4 @@
+isaiah,9 seconds,4 points
+musungedi,12 seconds,6 points
+angelo,12 seconds,6 points
+hunter,44 seconds,16 points
